@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+.titulo {
+    font-family: 'Ingrid Darling', cursive;
+    color: #FF33C6;
+    font-size: 80px;
+}
+
+.titulo:hover {
+    color: #FF33C6;
+}
+
+
+body {
+    background-color: black;
+}
+
+nav {
+    text-align: center;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.linea-rosa {
+    width: 100%;
+    height: 5px;
+    background-color: #FF33C6;
+}
+
+.nav-link {
+    color: #FF33C6;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.nav-link:hover {
+    color: #FF33C6;
+}
