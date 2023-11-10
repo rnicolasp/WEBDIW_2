@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container mt-5 text-center">
+        <button id="cargarTextoBtn" class="btn btn-pink">Cargar Siguiente Página</button>
+        <p id="contenidoParrafo">Página 1: Este es el contenido de la primera página.</p>
+    </div>
+
+    <script>
+        let paginaActual = 1;
+
+        const contenidoPaginas = [
+            "Página 1: Este es el contenido de la primera página.",
+            "Página 2: Este es el contenido de la segunda página.",
+            "Página 3: Este es el contenido de la tercera página."
+        ];
+        function cargarSiguientePagina() {
+            if (paginaActual < contenidoPaginas.length) {
+                paginaActual++;
+                document.getElementById('contenidoParrafo').innerText = contenidoPaginas[paginaActual - 1];
+            } else {
+                alert("¡Ya no hay más páginas!");
+            }
+        }
+        document.getElementById('cargarTextoBtn').addEventListener('click', cargarSiguientePagina);
+    </script>
+</body>
+
+</html>
