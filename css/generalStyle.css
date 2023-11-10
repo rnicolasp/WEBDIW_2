@@ -31,11 +31,36 @@ nav {
     background-color: #FF33C6;
 }
 
-.nav-link {
-    color: #FF33C6;
-    font-family: 'Kaushan Script', cursive;
+.present {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+    font-size: 100%;
 }
 
-.nav-link:hover {
+.present.p {
+    text-align: center;
+    margin-left: 3hv;
+}
+.rosita {
     color: #FF33C6;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+}
+
+.titulo-pag {
+    margin-top: 10%;
+}
+
+.btn-pink {
+    background-color: #FF33C6;
+}
+
+@media screen and (min-width: 600px) {
+
+    .titulo {
+        width: 100%;
+    }
 }
