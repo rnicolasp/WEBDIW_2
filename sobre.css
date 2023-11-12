@@ -1,0 +1,51 @@
+.contenido {
+    margin-top: 0;
+}
+
+section {
+    margin-top: 10px;
+}
+
+p {
+    color: #FF33C6;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.cv-flex {
+    display: flex;
+}
+
+.lista-pro{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-personal-cv {
+    margin-left: 20px;
+}
+
+.inv-cp{
+ display: none;  
+}
+
+.parrafo {
+    text-align: justify;
+}
+
+.foto {
+    width: 500px;
+}
+
+@media screen and (max-width: 500px) {
+    .inv-cp{
+        display: block;
+        width: 100%;
+    }
+
+    .img-personal-cv {
+        margin-left: 20px;
+        display: none;
+    }
+}
