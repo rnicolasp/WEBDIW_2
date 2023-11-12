@@ -8,28 +8,44 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/generalStyle.css">
+    <link rel="stylesheet" href="button.css">
 </head>
 
 <body>
     <div class="linea-rosa"></div>
 
-    <nav class="navbar navbar-expand-lg navbar-black bg-black">
-        <a class="navbar-brand titulo" href="#">Ramón Nicolás Pons</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </nav>
-    <div class="container">
-        <h3 class="titulo-pag rosita"><strong> Experimentado. Apasionado por el Código.</strong></h3>
-        <p class="rosita present">Con años de experiencia en desarrollo de software, estoy aquí para impulsar proyectos
-            con soluciones
-            eficientes y elegantes. Experto en diversos lenguajes y tecnologías, mi enfoque se centra en la calidad del
-            código y la resolución creativa de problemas. ¡Listo para nuevos desafíos y colaboraciones emocionantes!</p>
-        <div class="container mt-5 text-center">
-            <a href="story/story-1.html"><button  type="button" class="btn btn-pink">Empezar mi historia</button></a>
+    <div class="contenido">
+        <nav class="navbar navbar-expand-lg navbar-black bg-black">
+            <a class="navbar-brand titulo" href="#">Ramón Nicolás Pons</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+
+        <div class="container">
+            <div class="centrado">
+                <img src="img/yo_rosa.png" class="img-personal" alt="Una foto mía, muy buena">
+                <div class="text-center">
+                    <h2 class="rosita"><strong> · Programador! Apasionado por el Código y aventurero.</strong></h2>
+                    <p class="rosita">En esta Web podras conocerme mejor y ver mis anteriores trabajos. Puedes ver mas
+                        sobre
+                        mi historia en el apartadode Sobre mí.
+                        Si quieres saber información laboral, puedes entrar en Mi Curriculum.
+                    </p>
+                    <a href="cv.html" class="enlaceLimpio"><button>Mi curriculum</button></a><button>Sobre Mi</button>
+                </div>
+            </div>
         </div>
     </div>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container text-center">
+            <span class="text-muted">© 2023 Ramón Nicolás Pons - <a class="enlaceLimpio"
+                    href="https://github.com/rnicolasp">GitHub</a></span>
+        </div>
+    </footer>
+    <span class="linea-rosa"></span>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
