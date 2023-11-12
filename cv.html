@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Personal</title>
+    <title>Mi Currículum</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/generalStyle.css">
@@ -13,138 +13,96 @@
 </head>
 
 <body>
-    <header class="banner">
-        <div class="container_16">
-          <figure>
-            <img src="https://imgur.com/xm8BU2y.png" alt="David Díaz Rguez.">
-          </figure>
-          <hgroup>
-            <h1 class="fadeInDown">David Díaz Rodríguez</h1>
-            <h2 class="fadeInUp">Curriculum vitae</h2>
-            <img id="cv" class="fadeInUp" src="https://i.imgur.com/GVUBi6u.png" alt="cv">
-          </hgroup>
+    <span class="linea-rosa"></span>
+    <div class="contenido">
+        <nav class="navbar navbar-expand-lg navbar-black bg-black">
+            <a class="navbar-brand titulo" href="index.html">Ramón Nicolás Pons</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+
+        <div class="container">
+            <header class="text-center">
+                <h1 class="rosita">Mi Nombre</h1>
+                <p>Desarrollador Web</p>
+            </header>
+
+            <div class="cv-flex">
+                <div>
+                    <img src="img/yo_rosa.png" class="inv-cp" alt="Una foto mía, muy buena">
+                    <section class="experience">
+                        <h2 class="rosita">Experiencia Laboral</h2>
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="rosita">Desarrollador Frontend - Empresa ABC</h3>
+                                <p>Fecha de inicio - Fecha de finalización</p>
+                                <p>Descripción de las responsabilidades y logros.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="education">
+                        <h2 class="rosita">Educación</h2>
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="rosita">Ingeniería en Informática - Universidad XYZ</h3>
+                                <p>Año de inicio - Año de finalización</p>
+                                <p>Descripción de los cursos y logros académicos.</p>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <section class="skills">
+                        <h2 class="rosita">Habilidades</h2>
+                        <ul>
+                            <li>
+                                <p>HTML5</p>
+                            </li>
+                            <li>
+                                <p>CSS3</p>
+                            </li>
+                            <li>
+                                <p>JavaScript</p>
+                            </li>
+                            <li>
+                                <p>Escalada</p>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                <div>
+                    <img src="img/yo_rosa.png" class="img-personal-cv" alt="Una foto mía, muy buena">
+                </div>
+            </div>
         </div>
-      </header>
-      
-      <!-- Main section -->
-      <section role="main" class="container_16">
-        <div class="grid_16">
-          <!-- About me -->
-          <div class="grid_8 fadeInLeft">
-            <img class="icon" src="https://i.imgur.com/8msw88z.png" alt="sobre mí">
-            <h3>Sobre mí</h3>
-            <p>Mi nombre es David Díaz y soy programador web.</p>
-            <p>Actualmente soy desarrollador web freelance. Si estás interesado en el desarrollo de cualquier aplicación para dispositivos móviles o web puedes contactar conmigo, ya seas una empresa o profesional. Seguro que juntos podremos poner en marcha el proyecto que tienes en mente.</p><p>¡Un saludo!</p>
-          </div>
-      
-          <!-- knowledge -->
-          <div class="grid_8 knowledge fadeInRight">
-            <img class="icon" src="https://i.imgur.com/x1sZUlS.png" alt="Conocimientos">
-            <h3>Conocimientos</h3>
-            <ul class="values">
-              <li>HTML5<span style="width: 90%;"></span></li>
-              <li>CSS3<span style="width: 85%;"></span></li>
-              <li>Javascript<span style="width: 80%;"></span></li>
-              <li>jQuery<span style="width: 80%;"></span></li>
-              <li>Android KitKat SDK<span style="width: 95%;"></span></li>
-            </ul>
-          </div>
+    </div>
+    <form class="cf">
+        <h1 class="rosita">Formulario de Contacto</h1>
+        <div class="half left cf">
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Correo Electrónico">
+            <input type="text" placeholder="Asunto">
         </div>
-      
-        <!-- Experience -->
-        <div class="grid_16 experiences appear">
-          <img class="icon" src="https://i.imgur.com/gIXe1cf.png" alt="Experiencias">
-          <h3>Experiencias</h3>
-          <ul>
-             <li>
-              <h4><strong>Programador web</strong></h4>
-              <span class="site">Freelance</span>
-              <span class="date">2013 - Actualmente</span>
-              <p>Desarrollo de aplicaciones/páginas web y dispositivos móviles.</p>
-            </li>
-            <li>
-              <h4><strong>Analista/programador</strong></h4>
-              <span class="site">Open Canarias S.L.</span>
-              <span class="date">2011 - 2013</span>
-              <p>Analista/Programador en varios proyectos .Net para varias administraciones del Gobierno de Canarias realizando labores de desarrollo y mantenimiento de aplicaciones.</p>
-            </li>
-            <li>
-              <h4><strong>Analista/programador</strong></h4>
-              <span class="site">Personal Software System S.L.</span>
-              <span class="date">2008 - 2011</span>
-              <p>Analista/Programador en varios proyectos .Net para varias administraciones del Gobierno de Canarias realizando labores de desarrollo y mantenimiento de aplicaciones.</p>
-            </li>
-          </ul>
+        <div class="half right cf">
+            <textarea name="message" type="text" placeholder="Mensaje"></textarea>
         </div>
-      
-        <!-- Training -->
-        <div class="grid_16 training appear">
-          <img class="icon" src="https://i.imgur.com/mTJKfOj.png" alt="sobre mí">
-          <h3>Formación</h3>
-          <div class="formation1">
-          <ul>
-            <li>
-              <h4><strong>Curso de Diseño Web con CSS3</strong></h4>
-              <span class="site">Fundación General de la Universidad de La Laguna.</span>
-              <span class="date">2014</span>
-            </li>
-            <li>
-              <h4><strong>Curso de Programación de Apps Móviles</strong></h4>
-              <span class="site">Universidad Complutense de Madrid - Google.</span>
-              <span class="date">2014</span>
-            </li>
-            <li>
-              <h4><strong>Curso de Android KitKat 4.4</strong></h4>
-              <span class="site">Imagina Formación.</span>
-              <span class="date">2014</span>
-            </li>
-          </ul>
-          </div>
-          <div class="formation2">
-          <ul>
-            <li>
-              <h4><strong>Curso de Analítica Web</strong></h4>
-              <span class="site">Escuela de Organización Industrial - Google.</span>
-              <span class="date">2014</span>
-            </li>
-            <li>
-              <h4><strong>Android: Programación de aplicaciones</strong></h4>
-              <span class="site">MiriadaX.</span>
-              <span class="date">2013</span>
-            </li>
-          </ul>
-          </div>
+        <button>Enviar</button>
+    </form>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container text-center">
+            <span class="text-muted">© 2023 Ramón Nicolás Pons - <a class="enlaceLimpio"
+                    href="https://github.com/rnicolasp">GitHub</a></span>
         </div>
-      
-        <!-- Social Media -->
-        <div class="grid_8 socialmedia fadeInUp">
-          <img class="icon" src="https://i.imgur.com/mTJKfOj.png" alt="sobre mí">
-          <h3>Social Media - Contactar</h3>
-          <div>
-            <a href="mailto:alojamientostenerife@gmail.com"><img class="social" src="https://imgur.com/FyuhhGf.png" alt="Email"></a>
-            <a href="#"><img class="social" src="https://imgur.com/ZvnZYqb.png" alt="Google+"></a>
-            <a href="#"><img class="social" src="https://imgur.com/kouWDG0.png"  alt="LinkedIn"></a>
-          </div>
-          <div>
-            <a href="#"><img class="social" src="https://imgur.com/PXBh6dj.png" alt="Twitter"></a>
-            <a href="#"><img class="social" src="https://imgur.com/jKIJuCJ.png" alt="Facebook"></a>
-            <a href="#"><img class="social" src="https://imgur.com/ePCHOOz.png" alt="Wordpress"></a>
-          </div>
-        </div>
-        
-        <!-- Information -->
-        <div class="grid_8 information fadeInUp">
-          <img class="icon" src="https://i.imgur.com/1JUepNb.png" alt="Otros datos">
-          <h3>Otros datos</h3>
-          <ul class="information">
-            <li>Inglés nivel medio</li>
-            <li>Facilidad para trabajar en equipo</li>
-            <li class="">Aprendizaje rápido en nuevas tecnologías</li>
-            <li class="">carnet B1, coche propio</li>
-          </ul>
-        </div>
-       
-      </section>
+    </footer>
+    <span class="linea-rosa"></span>
+
+    <!-- Bootstrap JS (Optional) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
